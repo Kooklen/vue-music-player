@@ -1,0 +1,189 @@
+.login-top {
+    margin-top: 1px;
+}
+
+.ls-info {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--content-bg);
+    border-radius: 14px;
+    border: 1px solid var(--theme-bg-color);
+    padding: 5px;
+    font-size: 16px;
+}
+
+.ls-cover {
+    width: 380px;
+    position: relative;
+    display: inline;
+
+}
+
+.ls-cover img {
+    border-radius: 10px;
+    display: block;
+    width: 100%;
+
+}
+
+.clicksvg {
+    cursor: pointer;
+}
+
+.ls-wrap {
+    display: flex;
+    flex-direction: row;
+}
+
+.songlist-title {
+    font-weight: 200;
+    display: inline;
+    margin: 5px 0;
+}
+
+.songinfo {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.songinfo p {
+    color: var(--inactive-color);
+}
+
+
+
+.tagss {
+    display: flex;
+    flex-direction: row;
+}
+
+.tagss p {
+    padding: 0;
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.tagss ul {
+    padding: 0;
+    margin: 10px 0;
+}
+
+.tagss ul li {
+    margin-left: 10px;
+    list-style: none;
+    color: var(--inactive-color);
+    font-size: 14px;
+}
+
+.intion {
+    margin: 0;
+    font-size: 14px;
+}
+
+.ls-right {
+    width: 100%;
+}
+
+.px {
+    display: flex;
+    flex-direction: row;
+}
+
+.link {
+    padding: 20px 30px;
+    text-decoration: none;
+    color: var(--inactive-color);
+    border-bottom: 2px solid transparent;
+    transition: 0.3s;
+}
+
+.link:hover {
+    color: var(--theme-color);
+}
+
+.login-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9998;
+    width: 530px;
+    box-shadow: 0 5px 16px rgb(0 0 0 / 80%);
+    border: none;
+    background: var(--theme-bg-color);
+    border-radius: 10px;
+
+}
+
+.login-header {
+    background: var(--theme-bg-color);
+    border-radius: 10px 10px 0 0;
+
+    border-bottom: 1px solid var(--border-color);
+    /* background: var(--theme-bg-color); */
+    /* background: #2d2d2d; */
+}
+
+.login-content {
+    width: 250px;
+    padding: 30px 0;
+    margin: 0 auto;
+
+}
+
+.login-content input {
+    background: none;
+    border: none;
+
+    border-radius: 10px;
+    color: #fff;
+    height: 30px;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+.login-content input:hover {
+    border: 1px solid var(--border-color);
+}
+
+.login-content input::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: #c7c7c7;
+}
+
+.login-title {
+    height: 38px;
+    line-height: 38px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff;
+    padding-left: 18px;
+}
+
+.login-submit {
+    width: 215px;
+    margin-top: 20px;
+}
+
+.login-footer {
+    padding: 0 19px;
+    height: 48px;
+    border-top: 1px solid var(--border-color);
+    margin-top: 10px;
+    line-height: 48px;
+}
+
+.login-link {
+    text-decoration: none;
+    color: var(--inactive-color);
+    transition: 0.3s;
+}
+
+.login-link:hover {
+    color: var(--theme-color);
+}
+
+.lg-mgt {
+    margin-top: 20px
+}
